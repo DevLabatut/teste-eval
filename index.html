@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste eval()</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Teste eval()</h3>
+    <input id="entrada" placeholder="Digite código JS ex: 2+2" />
+    <button onclick="executar()">Testar</button>
+    <script>
+      function executar() {
+        const texto = document.getElementById("entrada").value;
+        if (texto == "") {
+          alert("Digite algo");
+          return;
+        }
+
+        try {
+          eval(texto);
+        } catch {
+          alert("Erro ao executar código");
+        }
+      }
+    </script>
+  </body>
+</html>
