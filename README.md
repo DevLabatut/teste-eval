@@ -11,8 +11,7 @@ O projeto executa exatamente o código digitado pelo usuário, evidenciando risc
 ## Funcionalidades
 
 * Campo para digitar código JavaScript.
-* Execução direta do código via `eval()`.
-* Exibição do resultado na página.
+* Execução direta do código digitado pelo usuário via `eval()`.
 * Validação simples de campo vazio.
 * Demonstração de como código malicioso pode ser executado.
 
@@ -85,4 +84,5 @@ para visualizar a execução do código na página.
 ## Autor
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
+
 | :---------------------------------------------------------------------------------------------------------------: |
