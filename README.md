@@ -84,5 +84,5 @@ para visualizar a execução do código na página.
 ## Autor
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
-
 | :---------------------------------------------------------------------------------------------------------------: |
+
